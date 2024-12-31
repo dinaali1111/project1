@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 12vh;
+  margin-top: 10px;
+}
+
+
+nav {
+  padding: 0px 104px;
+}
+.header nav #logo {
+  color: rgb(0, 123, 255);
+  float: left;
+  margin: 20px;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 500;
+  text-decoration: none solid rgb(0, 123, 255);
+  text-align: left;
+}
+.header ul a {
+  /* margin: 2%; */
+  float: right;
+  /* padding-right: 20px; */
+  padding: 30px 15px;
+  font-weight: 400;
+  color: #808080;
+
+}
+
+#Bg-Image {
+ 
+  height: 75vh;
+  width: 100%;
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.638), rgba(0, 0, 0, 0.589)),  /* إضافة طبقة شفافة من اللون الأسود */
+  url("image/imag1.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+para {
+  color: #ffffff;
+}
+.Bg_para #para {
+  text-align: center;
+  font-size: 22.4px;
+  font-weight: 300;
+}
+#p {
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  left: 44%;
+  bottom: 62%;
+  font-size: 48px;
+  font-weight: 700;
+}
+.Bg_para p {
+  color: #ffffff;
+  position: absolute;
+  left: 22%;
+  bottom: 52%;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Bg_para a
+
+
+{
+  color: #ffffff;
+  position: absolute;
+  bottom: 40%;
+  left: 46%;
+  padding: 7px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  /* padding: 10px 30px; */
+  background-color: #007bff;
+  font-weight: 400;
+}
+
+ h2{
+    color:#007BFF;
+    font-weight:700;
+    text-align: center;
+    font-size:40px;
+    margin-top: 55px;
+}
+#section_two img{
+    width: 500px;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 155px;
+    float: left;
+}
+
+
+#texts{
+  float: right;
+width: auto;
+height: auto;
+margin-top: 19px;
+margin-left: 10px;   
+    font-size: 28px;
+    padding-right: 184px;
+    text-decoration: none;
+
+}
+#para_one{
+font-size: 16px;
+color: #808080;
+margin-top: 32px;
+}
+#lis{
+margin-top: 20px;
+  text-align: left;
+  font-weight: 400;
+list-style-type: none;
+font-size:16px;
+color: RGB(128, 128, 128);
+line-height: 30px;
+}
+
+#Our_Features{
+  margin-top: 500px;
+  margin-left: 5%;
+height: 50vh;
+width: 85%;
+
+
+
+}
+.contant{
+text-align: center;
+
+}
+
+#Our_Features #div1{
+
+  overflow: auto;
+}
+#Our_Features img{
+
+  float: left;
+}
+#Our_Features #div2{
+
+  float: right;
+  margin-top: 45px;
+  margin-left:39px;
+}
+#paraa1{
+  margin-top: 20px;
+  font-weight:300;
+font-size:20px;
+color:
+#808080
+}
+#paraa2{
+  margin-top:20px;
+  font-weight:400;
+  font-size:16px;
+  height: 50%;
+color:
+#808080
+}
+#div2 {
+  position: relative;
+}
+#div2 a{
+   background-color:#007BFF;
+   padding:15px;
+   color:#FFFFFF;
+   font-size:16px;
+   font-weight:400;
+   border-radius:30px ;
+   position: absolute;
+   top: 110%;
+   -webkit-border-radius:30px ;
+   -moz-border-radius:30px ;
+   -ms-border-radius:30px ;
+   -o-border-radius:30px ;
+}
+
+.frequentlyAskQuestions{
+margin-top: 270px;}
+
+
+.frequentlyAskQuestions h1{
+
+  font-size:35px;
+  font-weight:700;
+color:#007BFF;
+}
+.frequentlyAskQuestions {
+  width: 100%;
+  overflow: hidden; 
+}
+.frequentlyAskQuestions>div{
+ margin-left: 10%;
+width: 90%;
+margin-top: 5%;
+}
+.frequentlyAskQuestions #divone {
+  float: left;
+  width: 48%;
+  margin-right: 2%; 
+}
+.frequentlyAskQuestions #divone {
+  float: left;
+  width: 48%;
+  margin-right: 2%;}
+
+.frequentlyAskQuestions #divone div{
+  color: #000000;
+  font-size:24px ;
+  font-weight:500 ;
+line-height: 80px;
+}
+.frequentlyAskQuestions p{
+  color: #808080
+  ;
+
+}
+.frequentlyAskQuestions #divtwo div{
+  color: #000000;
+  font-size:24px ;
+  font-weight:500 ;
+line-height: 80px;
+}
+.services-section {
+  width: 83%;
+  /* background-color:  #F8F9FA; */
+  margin: 0 -3px;
+  margin-top: 7%;
+  margin-left: 213px;
+  overflow: hidden;
+}
+
+.service {
+  width: 28%; 
+  display: inline-block; 
+  vertical-align: top;
+  margin: 1%; 
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.service i {
+  color: #007BFF;
+  font-size: 40px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.service h4 {
+  font-size: 18px; 
+  color: #000000;
+  font-weight: 500;
+}
+
+.service p {
+  font-size: 14px; 
+  color: #808080;
+}
+
+.service a {
+  display: inline-block;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+
+
+
